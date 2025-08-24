@@ -28,3 +28,20 @@ for(let i = 0; i < numbers.length; i++){
 }
 
 numbers.forEach(num => console.log(num * 2));
+
+
+
+
+let colors = ["Red", "Green", "Blue"];
+
+// Using for loop
+for (let i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
+}
+
+// Using forEach
+colors.forEach(color => console.log(color));
+
+// Using map (returns a new array)
+let upperColors = colors.map(color => color.toUpperCase());
+console.log(upperColors); // ["RED", "GREEN", "BLUE"]
