@@ -21,7 +21,13 @@ while (i <= 5) {
 }
 console.log(sum);
 
- 
+   
+
+
+
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}   
 
 
 
